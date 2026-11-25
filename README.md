@@ -318,6 +318,14 @@ The prototype demonstrated pitch compensation across the tested base inclination
 
 ![Base inclined upwards](docs/test_upwards.png)
 
+### Prototype Bench Test
+
+The following video demonstrates the levelling system during bench testing. 
+It shows the actuator responding to changes in platform inclination and 
+adjusting the platform towards its target level position.
+
+<video src="docs/levelling_bench_test.mp4" controls width="100%"></video>
+
 ## Known Limitations and Future Improvements
 
 ### 1. Reduced Prototype Clearance
@@ -345,17 +353,6 @@ A manual control mode could be introduced in future revisions, allowing an opera
 ### 4. Full-Scale Implementation
 
 The current prototype demonstrates the levelling principle at 1:5 scale. The full-scale system will require a higher-force actuator, a longer stroke and mechanically reinforced mounting components to support the intended casualty load.
-
-## Project Information
-
-**Project:** RB4107 Robotics System Design Project
-
-**Institution:** National University of Singapore (NUS)
-
-**Subsystem:** Automatic Levelling System
-
-**Controller:** ESP32 DevKit (ESP32-WROOM-32E)
-
 **Prototype Scale:** 1:5
 
 ## Licence
